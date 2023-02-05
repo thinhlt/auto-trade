@@ -1,0 +1,37 @@
+[setting]
+env="production"
+db="./dbstore/"
+interval="30m"
+warning_list=["ATOMUSDT", "BNBUSDT", "DOTUSDT", "ETCUSDT", "ICPUSDT", "LINKUSDT", "LUNABUSD", "MATICUSDT", "NEARUSDT","NEOUSDT", "QTUMUSDT", "SANDUSDT", "SOLUSDT", "XMRUSDT", "XRPUSDT" ,"XTZUSDT"]
+
+[my_sql]
+url="nobody:nobody@tcp(localhost:3306)/candle_history?charset=utf8mb4&parseTime=True&loc=Local"
+
+[telegram]
+group="anidiot"
+id=-123456
+warning_id=-123456
+
+[rhino]
+token=""
+
+[kafka]
+broker=["localhost:9092"]
+topic="trans_log"
+
+[redis]
+key_version=1
+
+[api]
+5m_ticker="https://api.bittrex.com/v3/markets/ada-usd/candles/trade/MINUTE_5/recent"
+markets_tickers="https://api.bittrex.com/v3/markets/tickers"
+
+[bittrex]
+black_list=["ctxc-btc", "chr-btc", "tusd-usd", "tusd-btc", "usdc-usd", "usdt-usd", "usdc-btc", "xels-btc", "xels-usdt"]
+time_format="2006Jan02"
+white_list=["btc-usd","xrp-usd","xrp-btc","eth-usd","eth-btc","ada-usd","ada-btc","xlm-usd","xlm-btc","ltc-usd","ltc-btc","doge-usd","doge-btc","vid-btc","bsv-btc","bsv-usd","dgb-btc","dgb-usd","enj-btc", "enj-usd","cro-btc","cro-usd","xem-btc","hbar-usd","hbar-btc","xhv-btc","trx-btc","trx-usd","vet-btc", "vet-usdt","sc-btc","sc-usd","vlx-usdt","vlx-btc","xels-usdt","xels-btc","uqc-btc","uqc-usdt","neo-usdt","neo-btc","xvg-btc","xvg-usdt","waxp-btc","waxp-usd","luna-usdt","luna-btc","link-btc","link-usd","vra-usdt","vra-btc","me-btc","rdd-btc","rdd-usdt","mana-btc","bch-btc","bch-usd","bat-btc","bat-usd","via-btc","dfi-btc","dfi-usdt","zil-btc","xdn-btc","btt-usdt","btt-btc","ardr-btc","rvn-btc","rvn-usd","kmd-btc","kmd-usd","lbc-btc","lbc-usd","strk-btc","strk-usdt","waves-btc","waves-usdt","dot-btc","dot-usd","steem-btc","zrx-btc","zrx-usd","cbc-btc","cbc-usdt","ogn-btc","xmr-btc","xmr-usdt","dash-btc","dash-usd","eos-btc","eos-usd","xtz-btc","xtz-usd","iota-btc","iota-usdt","firo-btc","ont-btc","ont-usdt","solve-btc","solve-usdt","atom-btc","atom-usd","sxp-btc","qtum-btc","omg-btc","omg-usdt","fil-btc","fil-usd","zen-btc","zen-usd","loon-usdt","loon-btc","uni-usd","uni-btc"]
+
+
+[binance]
+watch_list=["1INCHUSDT","AAVEUSDT","ADAUSDT","AKROUSDT","ALGOUSDT","ALPHAUSDT","ALICEUSDT","ANKRUSDT","ARUSDT","ATOMUSDT","AUDIOUSDT","AXSUSDT","AVAXUSDT","BATUSDT","BAKEUSDT","BEAMUSDT","BNBUSDT","BNTUSDT","BCHUSDT","BTCUSDT","BTTUSDT","CAKEUSDT","C98USDT","CELOUSDT","COMPUSDT","CHZUSDT","CRVUSDT","CTSIUSDT","DASHUSDT","DCRUSDT","DENTUSDT","DGBUSDT","DIAUSDT","DOTUSDT","EGLDUSDT","ENJUSDT","EOSUSDT","ETCUSDT","ETHUSDT","FILUSDT","FISUSDT","FLMUSDT","FTMUSDT","FTTUSDT","GRTUSDT","HBARUSDT","HNTUSDT","HOTUSDT","ICXUSDT","ICPUSDT","IOTAUSDT","IOSTUSDT","IOTXUSDT","JUVUSDT","KAVAUSDT","KLAYUSDT","KSMUSDT","LTCUSDT","LINKUSDT","LUNABUSD","MANAUSDT","MATICUSDT","MITHUSDT","MKRUSDT","NANOUSDT","NEARUSDT","NEOUSDT","OGNUSDT","OMGUSDT","ONEUSDT","ONTUSDT","PAXUSDT","PERLUSDT","PERPUSDT","QTUMUSDT","REEFUSDT","RUNEUSDT","RVNUSDT","SANDUSDT","SCUSDT","SNXUSDT","SOLUSDT","SLPUSDT","SRMUSDT","STXUSDT","SUPERUSDT","SUSHIUSDT","TFUELUSDT","THETAUSDT","TLMUSDT","TOMOUSDT","TRUUSDT","TRXUSDT","UMAUSDT","UNIUSDT","VETUSDT","VITEUSDT","WAVESUSDT","WINUSDT","XEMUSDT","XLMUSDT","XMRUSDT","XRPUSDT","XTZUSDT","YFIUSDT","ZECUSDT","ZENUSDT","ZILUSDT","ZRXUSDT"]
+

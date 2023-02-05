@@ -1,0 +1,12 @@
+package constraint
+
+var K_26 = 0
+var K_12 = 0
+var K_200 = 0
+
+var DEFAULT_LEVEL = 1.618
+var TIME_PARTITION_15 = 900000
+var TIME_PARTITION_30 int64 = 1800000
+var TIME_PARTITION_10 int64 = 600000
+var TIME_PARTITION_5 int64 = 300000
+var MINUTE_5_SECOND int64 = 300
